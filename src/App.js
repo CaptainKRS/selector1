@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 
 
-class App extends Component {
+class Selector extends Component {
   render() {
     return (
-      <div></div>
+      <div className="container">
+        <div className="navbar">
+        <div>Selected: </div>
+        <div>What goes here?</div>
+        </div>
+        <div className="shape-list">
+          Add the Shape components here
+        </div>
+      </div>
     );
   }
 }
 
-export default App;
+export default Selector;
